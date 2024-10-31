@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Tabs } from "./AnimatedTabs"; // Adjust the path to where the Tabs component is located
 // Example tab data with more meaningful content
-
+//Just To Check..
 const DummyContent = () => {
   return (
     <Image
