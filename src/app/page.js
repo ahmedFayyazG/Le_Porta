@@ -5,6 +5,7 @@ import { FaHome } from "react-icons/fa";
 import Grid from "./Components/ui/Grid";
 import { Tabs } from "./Components/ui/AnimatedTabs";
 import ParentComponent from "./Components/ui/Tabs";
+import RecentProjects from "./Components/RecentProjects";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Hero />
         <ParentComponent />
         <Grid />
+        <RecentProjects />
       </div>
     </main>
   );
